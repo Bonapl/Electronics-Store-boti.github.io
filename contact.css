@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./image/contact.jpg);
+}
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.navbar img {
+  width: 40px;
+  height: 40px;
+}
+.navbar p{
+  font-family: 'Bebas Neue';
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+  font-family: "Bebas Neue";
+  text-decoration: none;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+.navbar ul li a:hover {
+  color: white;
+  box-shadow: 0 0 5px 5px white;
+}
+h2 {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  font-size: 40px;
+  font-family: "Bebas Neue";
+  color: #ffff;
+}
+.image {
+  width: 100%;
+  height: 260px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #fff;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4ca943;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Bebas Neue";
+}
+
+button:hover {
+  background-color: #15395e;
+}
+iframe {
+  width: 560px;
+  height: 300px;
+}
+.footer {
+  background:linear-gradient(to right, rgb(140, 140, 218),rgb(223, 121, 109));
+  align-items: center;
+  justify-content: center;
+}
+.foot {
+  flex-wrap: wrap;
+  align-items: center;
+  width: 170px;
+}
+.foot h3{
+  font-family: 'Bebas Neue';
+  color: #ffffff;
+}
+.foot p{
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Bebas Neue';
+  padding: 2px;
+}
+.foot a{
+  color: blue;
+}
+@media (max-width:845px){
+  body{
+    width: 430px;
+  }
+  input{
+    width: 400px;
+  }
+  textarea{
+    width: 400px;
+  }
+  button{
+    width: 400px;
+  }
+  iframe{
+    width: 400px;
+  }
+  .footer{
+    width: 430px;
+    background-color: #ffffff;
+  }
+  .foot h3{
+    color: #000000;
+  }
+  .foot p{
+    color: #000000;
+  }
+}

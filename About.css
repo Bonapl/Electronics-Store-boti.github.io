@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/Profile.jpg);
+  background-size: cover;
+}
+.navbar {
+  background-color: transparent;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.navbar p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Bebas Neue";
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 5px 15px;
+  font-family: "Bebas Neue";
+  text-decoration: none;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+}
+.navbar ul li a:hover {
+  color: white;
+  box-shadow: 0 0 5px 5px #b30000;
+}
+.content {
+  padding: 0;
+  margin: 50px 200px 140px 400px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  flex-wrap: wrap;
+  height: 400px;
+  background-color: transparent;
+  border: 5px solid #b30000;
+  border-radius: 10px;
+  padding: 7px;
+  display: flex;
+}
+.content h2 {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+}
+.content p {
+  font-size: 16px;
+  font-family: "Khmer os Bokor";
+  color: #ffffff;
+  width: 480px;
+}
+@media screen and (max-width: 845px) {
+  .navbar {
+    width: 430px;
+    background-color: #b30000;
+  }
+  .content {
+    margin-left: 40px;
+    width: 340px;
+  }
+}
